@@ -10,8 +10,14 @@
     <script src="https://kit.fontawesome.com/d5bd1de9cb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="index.css" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script>
+      alert("2020년 6월 6일 부터 웹사이트 유지 및 업데이트가 종료 되었습니다. 수치와 정보가 업데이트되지 않습니다.")
+    </script>
   </head>
   <body>
+    <div class="alertDiv">
+      <span>*알림 2020년 6월 6일 부터 웹사이트 유지 및 업데이트가 종료 되었습니다. 수치와 정보가 업데이트되지 않습니다.</span>
+    </div>
     <header>
       <h1 id="logo">
         <a id="logo_anchor" href="http://corona19info.ga" style="cursor: pointer;">CORNAINFO</a>
@@ -29,7 +35,7 @@
           </button>
         </div>
         <div id="date_menu">
-          <span>마지막 업데이트 날짜 : 2020.6.26 오후 6:20</span>
+          <span>마지막 업데이트 날짜 : 2020.6.06 오후 8:40</span>
           <button class="reload_button" onClick="window.location.reload()">
             <i class="fas fa-redo"></i>
           </button>
@@ -64,7 +70,7 @@
       </div>
     </div>
     <div class="img">
-      <div style="text-align: center; cursor: text;">시.도 버튼을 클릭 하시면 각 시.도 홈페이지로 연결 됩니다.</div>
+      <span class="span" style="text-align: center; cursor: text;">시.도 버튼을 클릭 하시면 각 시.도 홈페이지로 연결 됩니다.</span>
       <div class="button_incheon">      
         <button class="area1_button" onclick="window.open('https://www.incheon.go.kr/intro/index')">
           <span class="area1">인천</span>
